@@ -28,6 +28,6 @@ async function bootstrap() {
 
   app.useGlobalFilters(new RpcCustomExceptionFilter());
   await app.listen();
-  logger.log(`Microservice is running on port ${envs.port}`);
+  logger.log(`Microservice running on port ${envs.port}`);
 }
 bootstrap();
