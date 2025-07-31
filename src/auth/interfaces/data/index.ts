@@ -1,0 +1,1 @@
+export { JwtPayloadInterface } from './jwt-payload.interfaces';
